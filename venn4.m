@@ -144,13 +144,13 @@ switch n
         % draw circle A edge again (so it's not covered by circle B)
         circle(X,Y,r,[0 0 0],0);        
 
-        text(1,2.2,s(1),'HorizontalAlignment','right', 'FontSize', 26, 'FontWeight', 'bold');
-        text(2,2.2,s(2),'HorizontalAlignment','left', 'FontSize', 26, 'FontWeight', 'bold');
+        text(1,2.2,s(1),'HorizontalAlignment','right', 'FontSize', 32, 'FontWeight', 'bold');
+        text(2,2.2,s(2),'HorizontalAlignment','left', 'FontSize', 32, 'FontWeight', 'bold');
 
-        text(0.5,1,A,'HorizontalAlignment','center', 'FontSize', 26);
-        text(2.5,1,B,'HorizontalAlignment','center', 'FontSize', 26);
+        text(0.5,1,A,'HorizontalAlignment','center', 'FontSize', 26, 'FontWeight', 'bold');
+        text(2.5,1,B,'HorizontalAlignment','center', 'FontSize', 26, 'FontWeight', 'bold');
         % Make the intersection bold
-        text(1.5,1,AB,'HorizontalAlignment','center', 'FontSize', 26, 'FontWeight', 'bold')
+        text(1.5,1,AB,'HorizontalAlignment','center', 'FontSize', 32, 'FontWeight', 'bold')
 
     case 3
         xlim([-0.5 4])
@@ -161,19 +161,19 @@ switch n
         circle(X,Y,r,colors(1,:),alpha);
         circle(X+r,Y,r,colors(2,:),alpha);
 
-        text(1.5,3.2,s(1),'HorizontalAlignment','center', 'FontSize', 26, 'FontWeight', 'bold');
-        text(-0.1,1,s(2),'HorizontalAlignment','right', 'FontSize', 26, 'FontWeight', 'bold');
-        text(3.1,1,s(3),'HorizontalAlignment','left', 'FontSize', 26, 'FontWeight', 'bold');
+        text(1.5,3.2,s(1),'HorizontalAlignment','center', 'FontSize', 32, 'FontWeight', 'bold');
+        text(-0.1,1,s(2),'HorizontalAlignment','right', 'FontSize', 32, 'FontWeight', 'bold');
+        text(3.1,1,s(3),'HorizontalAlignment','left', 'FontSize', 32, 'FontWeight', 'bold');
 
-        text(1.5,2.4,A,'HorizontalAlignment','center', 'FontSize', 26)
-        text(0.5,1,B,'HorizontalAlignment','center',  'FontSize', 26)
-        text(2.5,1,C,'HorizontalAlignment','center',  'FontSize', 26)
+        text(1.5,2.4,A,'HorizontalAlignment','center', 'FontSize', 26, 'FontWeight', 'bold')
+        text(0.5,1,B,'HorizontalAlignment','center',  'FontSize', 26, 'FontWeight', 'bold')
+        text(2.5,1,C,'HorizontalAlignment','center',  'FontSize', 26, 'FontWeight', 'bold')
 
-        text(1,1.75,AB,'HorizontalAlignment','center',  'FontSize', 26)
-        text(1.5,0.75,BC,'HorizontalAlignment','center',  'FontSize', 26)
-        text(2,1.75,AC,'HorizontalAlignment','center',  'FontSize', 26)
+        text(1,1.75,AB,'HorizontalAlignment','center',  'FontSize', 26, 'FontWeight', 'bold')
+        text(1.5,0.75,BC,'HorizontalAlignment','center',  'FontSize', 26, 'FontWeight', 'bold')
+        text(2,1.75,AC,'HorizontalAlignment','center',  'FontSize', 26, 'FontWeight', 'bold')
         
-        text(1.5,1.4,ABC,'HorizontalAlignment','center', 'FontSize', 26, 'FontWeight', 'bold')
+        text(1.5,1.4,ABC,'HorizontalAlignment','center', 'FontSize', 32, 'FontWeight', 'bold')
 
     case 4        
         xlim([-3.5 4])
@@ -200,25 +200,25 @@ switch n
         text(2,3.5,s(3),'HorizontalAlignment','left', 'FontSize', 26, 'FontWeight', 'bold')
         text(3,3,s(4),'HorizontalAlignment','left', 'FontSize', 26, 'FontWeight', 'bold')
         
-        text(-2,1.5,A,'HorizontalAlignment','center', 'FontSize', 20)
-        text(2,1.5,D,'HorizontalAlignment','center', 'FontSize', 20)
-        text(-1,2.75,B,'HorizontalAlignment','center', 'FontSize', 20)
-        text(1,2.75,C,'HorizontalAlignment','center', 'FontSize', 20)
+        text(-2,1.5,A,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(2,1.5,D,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(-1,2.75,B,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(1,2.75,C,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
         
         
-        text(-1.4,2.25,AB,'HorizontalAlignment','center', 'FontSize', 20)
-        text(1.4,2.25,CD,'HorizontalAlignment','center', 'FontSize', 20)
-        text(0,2.25,BC,'HorizontalAlignment','center', 'FontSize', 20)
-        text(-1.25,0.5,AC,'HorizontalAlignment','center', 'FontSize', 20)
-        text(1.25,0.5,BD,'HorizontalAlignment','center', 'FontSize', 20)
-        text(0,-0.4,AD,'HorizontalAlignment','center', 'FontSize', 20)
+        text(-1.4,2.25,AB,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(1.4,2.25,CD,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(0,2.25,BC,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(-1.25,0.5,AC,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(1.25,0.5,BD,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(0,-0.4,AD,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
         
-        text(-0.75,1.5,ABC,'HorizontalAlignment','center', 'FontSize', 20)
-        text(0.75,1.5,BCD,'HorizontalAlignment','center', 'FontSize', 20)
-        text(-0.4,0.05,ACD,'HorizontalAlignment','center', 'FontSize', 20)
-        text(0.4,0.05,ABD,'HorizontalAlignment','center', 'FontSize', 20)
+        text(-0.75,1.5,ABC,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(0.75,1.5,BCD,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(-0.4,0.05,ACD,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(0.4,0.05,ABD,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
         
-        text(0,0.5,ABCD,'HorizontalAlignment','center', 'FontSize', 20, 'FontWeight', 'bold')
+        text(0,0.5,ABCD,'HorizontalAlignment','center', 'FontSize', 26, 'FontWeight', 'bold')
         
     otherwise
         disp('n must be an integer between 2 and 4.')
